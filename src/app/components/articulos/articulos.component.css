@@ -1,0 +1,20 @@
+#inputName {
+  width: 500px;
+  margin-left: 10px;
+}
+
+#inputPrice {
+  width: 300px;
+  margin-left: 10px;
+}
+
+#buttonLoad {
+  margin-left: 15px;
+}
+#buttonClear {
+  margin-left: 15px;
+}
+#tablee {
+  margin: 15px;
+  width: auto;
+}
