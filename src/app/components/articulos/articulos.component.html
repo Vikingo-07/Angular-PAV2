@@ -67,7 +67,11 @@
     </button>
   </div>
   <div>
-    <table class="table table-bordered" id="tablee">
+    <table
+      class="table table-bordered"
+      id="tablee"
+      *ngIf="items && items.length"
+    >
       <thead>
         <tr>
           <th>&nbsp;&nbsp;Precio&nbsp;&nbsp;</th>
