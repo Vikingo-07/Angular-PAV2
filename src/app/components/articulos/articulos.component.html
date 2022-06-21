@@ -80,7 +80,7 @@
       </thead>
       <tbody>
         <tr *ngFor="let articulo of items">
-          <td>${{ articulo.price }}</td>
+          <td>{{ articulo.price | currency:'ARS':true:'1.2-2'}}</td>
           <td>{{ articulo.name }}</td>
         </tr>
       </tbody>
